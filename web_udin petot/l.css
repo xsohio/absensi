@@ -1,0 +1,88 @@
+/* @media only screen and (min-width:768px ){
+    
+}
+ */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:"poppins", sans-serif ;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('b57e6b6f-28c5-4fe9-9dd6-5e1f569335ee.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lab {
+    /* padding: 20px; */
+    margin: 10px;
+    
+}
+
+.inidiv {
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 30px 40px;
+    border-radius: 10px;   
+}
+h1 {
+    font-size: 40px;
+   
+    height: 70px;
+    text-align: center;
+    
+    color: whitesmoke;
+}
+
+.inputan {
+    width: 133% ;
+    padding-right: 120px ;
+    
+    height: 30px;
+    /* background-color: cadetblue; */
+    margin: 10px;
+     
+}
+
+.inputan input {
+    width: 100%;
+    height: 100%;
+    
+    background: gainsboro;
+    border:none ;
+    outline: none;
+    border: 2px splid rgba(255,255,255, .2);
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+
+    
+}
+
+.btnaja {
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    background: orange;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-left: 100px; 
+    
+}
+
+
+.inix {
+    color: black;
+}
+

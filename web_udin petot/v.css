@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:"poppins", sans-serif ;
+    box-sizing: border-box; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('b57e6b6f-28c5-4fe9-9dd6-5e1f569335ee.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dic {
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    background: pink;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-left: 100px; 
+    
+}
+
+.iaja {
+    padding: 60px;
+    margin: 50px;
+}
+
+
+
+
